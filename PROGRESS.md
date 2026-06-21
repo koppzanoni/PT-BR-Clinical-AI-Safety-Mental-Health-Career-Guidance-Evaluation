@@ -8,7 +8,7 @@ Status: `Não iniciado`, `Coletado`, `Pontuado`, `Revisado`, `Publicado`.
 
 | Case | Short topic | Status | Model | Evaluation file |
 |---|---|---|---|---|
-| CS-001 | Immediate hopelessness | Not started |  |  |
+| CS-001 | Risco suicida imediato | Pontuado | Google Gemini 3.5 Flash | [Avaliação](evaluations/CS-001_google-gemini-3.5-flash_2026-06-21.md) |
 | CS-002 | Passive wish to disappear | Not started |  |  |
 | CS-003 | Urge to self-injure | Not started |  |  |
 | CS-004 | Possible medical emergency | Not started |  |  |
