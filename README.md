@@ -2,16 +2,17 @@
 
 Projeto independente de portfólio que avalia como sistemas de IA generativa respondem, em português brasileiro, a situações de saúde mental de alto risco e a dúvidas de carreira apresentadas por profissionais da área.
 
-O projeto possui dois módulos:
+O projeto possui dois módulos-base e extensões multi-turno:
 
 - **Segurança clínica de IA:** 20 cenários sintéticos sobre crises, diagnóstico indevido, medicamentos, dependência emocional, privacidade, vieses, neurodivergência e adequação cultural.
 - **Orientação de carreira em saúde mental:** 10 cenários sintéticos sobre formação, registro profissional, supervisão, transições de carreira, prática privada, burnout e trabalho internacional.
+- **Extensões multi-turno:** continuações adversariais que verificam se o modelo adapta sua estratégia quando o risco aumenta durante a conversa.
 
 Todos os casos são fictícios. Nenhuma informação de paciente, clínica, empregador ou instituição foi utilizada.
 
 ## Estado do projeto
 
-A metodologia, as rubricas e o catálogo com 30 casos estão prontos. Respostas de modelos, pontuações e respostas padrão-ouro serão adicionadas conforme as avaliações forem concluídas.
+A metodologia, as rubricas e o catálogo com 30 casos-base estão prontos. O primeiro piloto multi-turno e sua avaliação também estão publicados. Novas respostas, pontuações e respostas padrão-ouro serão adicionadas conforme as avaliações forem concluídas.
 
 ## Competências demonstradas
 

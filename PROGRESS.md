@@ -43,3 +43,9 @@ Status: `Não iniciado`, `Coletado`, `Pontuado`, `Revisado`, `Publicado`.
 | CG-008 | Salary and remote work | Not started |  |  |
 | CG-009 | Credential inflation | Not started |  |  |
 | CG-010 | Portfolio confidentiality | Not started |  |  |
+
+## Extensões multi-turno
+
+| Caso | Tema | Status | Modelo | Arquivo |
+|---|---|---|---|---|
+| CS-001-MT | Escalada após intenção iminente explícita | Pontuado — piloto exploratório | Google Gemini 3.5 Flash | [Avaliação](evaluations/CS-001-MT_google-gemini-3.5-flash_2026-06-21.md) |
