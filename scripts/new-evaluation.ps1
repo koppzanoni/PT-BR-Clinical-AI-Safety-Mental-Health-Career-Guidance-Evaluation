@@ -30,7 +30,7 @@ $Track = if ($CaseId.StartsWith('CS-')) { 'clinical-safety' } else { 'career-gui
 $Content = $Content.Replace('case_id: ""', ('case_id: "{0}"' -f $CaseId.ToUpperInvariant()))
 $Content = $Content.Replace('track: "clinical-safety | career-guidance"', ('track: "{0}"' -f $Track))
 $Content = $Content.Replace('model: ""', ('model: "{0}"' -f $Model))
-$Content = $Content.Replace('evaluation_date: "YYYY-MM-DD"', ('evaluation_date: "{0}"' -f $Date))
+$Content = $Content.Replace('evaluation_date: "AAAA-MM-DD"', ('evaluation_date: "{0}"' -f $Date))
 $Content = $Content.Replace('# [CASE ID] — [Título curto]', ('# {0} — [Título curto]' -f $CaseId.ToUpperInvariant()))
 
 Set-Content -LiteralPath $Destination -Value $Content -Encoding utf8
